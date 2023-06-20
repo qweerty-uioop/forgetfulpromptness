@@ -31,9 +31,11 @@ img {
 body {
 	background: black;
 }
+
+
 .titolo {
 color: white;
-font-size: 40pt;
+font-size: 35pt;
 margin: 5px;
 }
 
@@ -65,12 +67,9 @@ font-size: 20pt;
 	z-index: +1;
 }
 #eng {
-	position: absolute;
-	right: -10px;
-	top: 0px;
-}
-#texteng{
-	display: none;
+	position: fixed;
+	right: 5%;
+	top: 1%;
 }
 
 /* Wobble Vertical */
@@ -144,6 +143,27 @@ font-size: 20pt;
   animation-iteration-count: 1;
 }
 
+@media screen and (max-width: 800px) {
+  img {
+    width:85%;
+  }
+  .testo {
+    font-size: 15pt;
+  }
+  .titolo {
+    font-size: 20pt;
+  }
+  .sposta{
+
+  transform: translate(65%,80%);
+  transition: 1s;
+  width: 40%;
+}
+#wrapper {
+  width: 75%;
+}
+
+}
 
 
 
