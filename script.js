@@ -18,19 +18,7 @@ var images = [
 	'immagini/dalle15.png',
 	'immagini/dalle16.png',
 	'immagini/dalle17.png',
-	'immagini/dalle18.png',
-	'immagini/dalle19.png',
-	'immagini/dalle20.png',
-	'immagini/dalle21.png',
-	'immagini/dalle22.png',
-	'immagini/dalle23.png',
-	'immagini/dalle24.png',
-	'immagini/dalle25.png',
-	'immagini/dalle26.png',
-	'immagini/dalle27.png',
-	'immagini/dalle28.png',
-	'immagini/dalle29.png',
-	'immagini/dalle30.png',
+
 
 ];
 	var i=0; 
