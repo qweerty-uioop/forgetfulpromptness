@@ -1,0 +1,150 @@
+
+
+
+
+
+#random-image{
+
+	animation: fadeinout 20s ease-in infinite;
+	}
+
+	@keyframes fadeinout {
+  0% {opacity: 0;}
+  33% { opacity: 1; }
+  66% {opacity: 1}
+  100%{ opacity: 0;}
+}
+
+
+img {
+	width: 50%;
+	position: fixed;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	margin: auto;
+	z-index: -1;
+
+}
+
+body {
+	background: black;
+}
+.titolo {
+color: white;
+font-size: 40pt;
+margin: 5px;
+}
+
+.testo {
+
+color: white;
+font-size: 20pt;
+}
+
+#wrapper {
+	display: none;
+	background: transparent;
+	z-index: -1;
+	position: absolute;
+	top: 50px;
+	width: 50%;
+}
+
+.sposta{
+
+	transform: translate(65%);
+	transition: 1s;
+	width: 40%;
+}
+#divTitolo{
+	position: fixed;
+	background: black;
+	padding: 5px;
+	z-index: +1;
+}
+#eng {
+	position: absolute;
+	right: -10px;
+	top: 0px;
+}
+#texteng{
+	display: none;
+}
+
+/* Wobble Vertical */
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+
