@@ -40,6 +40,8 @@ function changeImg(){
 				document.getElementById("text").style.color="black";
 				document.getElementById("lingua").style.color="black";
 				document.getElementById("divTitolo").style.background="white";
+				document.getElementById("question").style.color="black";
+				document.getElementById("mail").style.color="black";
 
 				document.getElementById("random-image").style.display = "none";
 		}
