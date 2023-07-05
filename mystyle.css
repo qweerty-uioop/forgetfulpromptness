@@ -175,6 +175,18 @@ font-size: 20pt;
   img {
     width:85%;
   }
+  #wrapper {
+  width: 75%;
+}
+#question {
+  top: 15%;
+}
+#mail{
+  top: 10%;
+  background: white;
+  color: black;
+  padding: 3px;
+}
   .testo {
     font-size: 15pt;
   }
@@ -189,12 +201,7 @@ font-size: 20pt;
 }
 
   }
-}
-#wrapper {
-  width: 75%;
-}
 
-}
 
 
 
