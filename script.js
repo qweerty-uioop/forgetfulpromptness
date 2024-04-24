@@ -18,11 +18,10 @@ var images = [
 	'immagini/dalle15.png',
 	'immagini/dalle16.png',
 	'immagini/dalle17.png',
-
-
 ];
-	var i=0; 
-	var time = 20000; //20s
+
+var i=0; 
+var time = 20000; //20s
 
 
 function shuffle(images){
@@ -30,8 +29,8 @@ function shuffle(images){
 }
 
 function changeImg(){
-	
 		document.getElementById("random-image").src=images[i];
+		
 		if(i < images.length ){
 			i++;
 		} else {
@@ -49,7 +48,6 @@ function changeImg(){
 	}
 
 function mostra(IdElementoDaMostrare){
-  
   if (document.getElementById(IdElementoDaMostrare).style.display === "none") {
     document.getElementById(IdElementoDaMostrare).style.display = "block";}
   else {
