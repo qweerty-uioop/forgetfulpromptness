@@ -35,14 +35,21 @@ body {
 
 .titolo {
 color: white;
+text-shadow: 0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white; 
 font-size: 30pt;
 margin: 0px;
+}
+.titolo:hover{
+  text-shadow: 0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white,
+  0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+
 }
 
 .testo {
 
 color: white;
 font-size: 20pt;
+text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white;
 }
 
 #wrapper {
@@ -71,10 +78,26 @@ font-size: 20pt;
 	right: 5%;
 	top: 1%;
 }
+#eng:hover {
+  
+  text-shadow: 0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white,
+  0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+
+
+}
 #question {
   position: fixed;
   right: 5%;
   top: 10%;
+}
+
+#question:hover {
+
+  text-shadow: 0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white,
+  0px 0px 5px white, 0px 0px 5px white,0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+
+
+
 }
 #mail {
   display: none;
@@ -111,7 +134,7 @@ font-size: 20pt;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
- .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
   animation-name: hvr-wobble-vertical;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
