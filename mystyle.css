@@ -1,6 +1,13 @@
 
 
 
+html {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
 
 
 #random-image{
@@ -30,6 +37,7 @@ img {
 
 body {
 	background: black;
+
 }
 
 
@@ -59,6 +67,7 @@ text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3p
 	position: absolute;
 	top: 50px;
 	width: 50%;
+  scrollbar-width: none; /* for Firefox */
 }
 
 .sposta{
@@ -69,7 +78,7 @@ text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3p
 }
 #divTitolo{
 	position: fixed;
-	background: black;
+	background: transparent;
 	padding: 0px;
 	z-index: +1;
 }
